@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(#d88fc7, #cab2c7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+#dynamicDiv {
+    padding: 10px;
+  /*background-color: lightblue;*/
+    max-height: none; 
+    overflow: visible; 
+}
+  
+.container {
+    background-color: pink;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(33, 77, 440, 33);
+    width: 500px;
+    height: 100%;
+    text-align: center;
+}
+  
+h1 {
+    padding-top: 65px;
+    text-align: center;
+}
+  
+.input-container {
+    margin-bottom: 10px;
+}
+  
+.input-container label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+.input-container input {
+    width: calc(100% - 80px);
+    padding: 8px;
+    margin-bottom: 10px;
+}
+  
+/*.input-container button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+  
+.input-container button:hover {
+    background-color: #45a049;
+}
+*/
+
+.input-container button{
+    padding: 8px 15px;
+    background-color: #2cc268;
+    color: white;
+    border: none;
+    cursor: cell;
+}
+
+.input-container button:hover{
+    background-color: black;
+}
+
+.scores-list {
+    margin-top: 10px;
+   /* width: 400px;*/
+}
+  
+.score-item {
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 4px;
+}
+  
+.grade-A {
+    background-color: rgb(76, 175, 80);
+    color: white;
+}
+  
+.grade-B {
+    background-color: rgb(33, 150, 243);
+    color: white;
+}
+  
+.grade-C {
+    background-color: rgb(255, 152, 0);
+    color: white;
+}
+  
+.grade-D {
+    background-color: rgb(127, 84, 29);
+    color: white;
+}
+  
+.grade-F {
+    background-color: rgb(255, 36, 0);
+    color: white;
+}
