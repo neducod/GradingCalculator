@@ -10,6 +10,8 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+  padding: 20px;
+  flex-wrap: wrap;
   }
 
 #dynamicDiv {
@@ -26,6 +28,8 @@ body {
     box-shadow: 0 0 10px rgba(33, 77, 440, 33);
     width: 500px;
     height: 100%;
+  /*margin-right: 20px;
+  flex-shrink: 0;*/
     text-align: center;
 }
   
@@ -109,3 +113,35 @@ h1 {
     background-color: rgb(255, 36, 0);
     color: white;
 }
+
+
+/* Media Query for Tablets and Smaller Screens */
+@media (max-width: 768px) {
+    body {
+      flex-direction: column;
+      align-items: center;
+      height: auto;
+    }
+  
+    .container, .scores-list {
+      width: 90%;
+      margin: 10px 0;
+      box-shadow: none;
+    }
+  }
+  
+  /* Media Query for Mobile Phones */
+  @media (max-width: 480px) {
+    .input-container input {
+      width: calc(100% - 70px);
+    }
+  
+    .input-container button {
+      width: 100%;
+      margin-top: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  }
